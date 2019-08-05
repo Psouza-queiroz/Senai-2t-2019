@@ -47,13 +47,13 @@ INSERT INTO Marca VALUES ('Gucci')
 						,('Supreme')
 						,('Nike')
 						,('Adidas')
-						,('Lacoste')
+	
 
 SELECT *
 FROM Marca
 						  
 INSERT INTO Camisetas (Nome, IdMarca) VALUES ('Camiseta 1',1)
-											,('Camiseta 2',3)
+																,('Lacoste'),('Camiseta 2',3)
 											 ,('Camiseta 3',4)
 											 ,('Camiseta 4',5)
 											,('Camiseta 5',2)
