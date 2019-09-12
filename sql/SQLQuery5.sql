@@ -34,13 +34,15 @@ INSERT INTO Artistas (Nome) VALUES  ('Quenn')
 							,('Artic Monkeys')
 							,('BTS')
 
-SELECT *
-FROM Artistas
+	SELECT *
+	FROM Artistas
+
+DELETE FROM Artistas
 
 
 UPDATE Artistas
-SET IdEstilos = 1
-WHERE IdArtitas = 1;
+SET IdEstilos = 2
+
 
 UPDATE Artistas
 SET IdEstilos = 2
